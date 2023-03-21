@@ -6,11 +6,13 @@
 
 import random
 
+n= int(input("Введите количество монет на столе "))
+
 count = 0
 gerbUp = 0
 reshkabUp = 0
 
-while count < 10:
+while count < n:
    coin = random.randint(0, 1)
    if coin == 1:
       reshkabUp += 1
